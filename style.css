@@ -1,3 +1,82 @@
+@font-face {
+  font-family: MySticalSnow;
+  src: url("assets/MysticalSnow.ttf");
+}
+
 #navbar-brand {
-  background-color: #4aaaa5;
+  color: #1a64af;
+  font-family: MySticalSnow;
+}
+#aboutbutton {
+  color: #1a64af;
+}
+
+#aboutbutton:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#contactbutton {
+  color: #1a64af;
+}
+
+#contactbutton:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#porfoliobutton {
+  color: #1a64af;
+}
+
+#porfoliobutton:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+footer {
+  border-top: 5px solid #1a64af;
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+body {
+  /* background-color: wheat; */
+  /* margin: 0;
+  padding: 0; */
+  background-image: url("assets/bg.jpeg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: cover;
+}
+
+a:hover {
+  color: blue;
+}
+
+h1 {
+  color: #1a64af;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #1a64af;
+}
+
+#main {
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* 
+#mypicture {
+  width: auto;
+  height: 200px;
+  margin-right: 5px;
+} */
+
+#picture {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 15px;
 }

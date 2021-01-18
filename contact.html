@@ -9,27 +9,58 @@
 </head>
 <body>
     <!--beginning of navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a id="navbar-brand" class="navbar-brand text-white" href="#">Faisal Nour</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav" dir="rtl">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a id="navbar-brand" class="navbar-brand" href="index.html">Faisal Nour</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav" dir="rtl">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a id="aboutbutton" class="nav-link active" aria-current="page" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a id="porfoliobutton" class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a id="contactbutton" class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> <!--end of navbar-->
+    <!--start of container-->
+  <div  class="container">
+    <div class="row">
+      <div id="main" class="col-7">
+        <div class="row"> <!--first row-->
+          <h1>Contact</h1>
+        </div><!--end of firs row-->
+        <div class="row"> <!--second row-->
+          <div class="col-10">
+            <form>
+              <div class="form-group mb-2">
+                <label for="nameInput">Name</label>
+                <input type="text" class="form-control" id="nameInput" placeholder="Name">
+              </div> <!--end of name-->
+              <div class="form-group mb-2">
+                <label for="emailInput">Email address</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="Email">
+              </div> <!--end of email-->
+              <div class="form-group mb-3">
+                <label for="textArea">Message</label>
+                <textarea class="form-control" id="textArea" rows="3" placeholder="Message"></textarea>
+              </div>
+              <button type="button" class="btn btn-primary mb-2">Submit</button>
+            </form>
           </div>
-        </div>
-      </nav> <!--end of navbar-->
-    Contact page
+        </div> <!--second row-->
+      </div> <!--end of main-->
+    </div>
+  </div> <!--end of container-->
+  <footer class="bg-light">
+    <p class="text-center">&copy;2021 Faisal Nour. All rights reserved.</p>
+  </footer>  
 </body>
 </html>
