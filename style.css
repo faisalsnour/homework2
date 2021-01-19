@@ -7,6 +7,9 @@
   color: #1a64af;
   font-family: MySticalSnow;
 }
+#navbar-brand:hover {
+  font-weight: bold;
+}
 #aboutbutton {
   color: #1a64af;
 }
@@ -38,6 +41,8 @@ footer {
   border-top: 5px solid #1a64af;
   display: block;
   margin: 0;
+  position: fixed;
+  bottom: 0;
   width: 100%;
 }
 body {
@@ -79,4 +84,5 @@ h1 {
   float: left;
   margin-right: 25px;
   margin-bottom: 15px;
+  border: 1px solid #1a64af;
 }
