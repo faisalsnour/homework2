@@ -45,11 +45,13 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
 body {
-  background-image: url("assets/bg.jpeg");
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-position: cover;
+  background-image: url("assets/bg3.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a:hover {
